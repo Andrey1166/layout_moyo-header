@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -10,21 +10,6 @@ body {
   box-sizing: border-box;
 
   --main-color: #00acdc;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-li {
-  padding: 0;
-  margin: 0;
-}
-
-img {
-  display: block;
 }
 
 .header {
@@ -42,12 +27,21 @@ img {
 }
 
 .header__img {
+  display: block;
   width: 100%;
   height: 100%;
 }
 
 .nav__list {
   display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav__item {
+  padding: 0;
+  margin: 0;
 }
 
 .nav__item:not(:last-child) {
